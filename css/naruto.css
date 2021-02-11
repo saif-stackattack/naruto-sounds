@@ -1,0 +1,62 @@
+﻿body {
+    background: url("https://wallpaperaccess.com/full/1250838.png")
+}
+
+.titles h1{
+    display: flex;
+    justify-content: center;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.titles h5 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -20px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+button{
+    background: none;
+    width: 70px;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+button img{
+    border-radius: 20px;
+}
+
+.sharingan{
+    border-radius: 20px;
+    position: absolute;
+    left: 17%;
+    top: 17%;
+}
+
+.rasengan {
+    position: absolute;
+    left: 10%;
+    top: 17%;
+}
+
+.clone {
+    position: absolute;
+    left: 24%;
+    top: 17%;
+}
+
+.pain{
+    position: absolute;
+    left: 31%;
+    top: 17%;
+}

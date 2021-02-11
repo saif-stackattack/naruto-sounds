@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link href="css/naruto.css" rel="stylesheet" />
+    <title>Naruto sounds</title>
+</head>
+<body>
+    <div class="titles">
+        <h1>Naruto</h1>
+        <h5>click any button!</h5>
+    </div>
+    <button class="" onmousedown=".play()"><img src="" width="65" height="30" /></button>
+    <button class="rasengan" onmousedown="rasengan.play()"><img src="https://static2.cbrimages.com/wordpress/wp-content/uploads/2019/07/Naruto-meme-header.jpg" width="65" height="30" /></button>
+    <button class="sharingan" onmousedown="sharingan.play()"><img src="https://static0.cbrimages.com/wordpress/wp-content/uploads/2020/10/Sasuke-Sharingan.jpg?q=50&fit=crop&w=740&h=370" width="65" height="30" /></button>
+    <button class="clone" onmousedown="clone.play()"><img src="https://static.wikia.nocookie.net/naruto/images/e/e6/Multiple_Shadow_Clone_Technique.png/revision/latest?cb=20150221104302" width="65" height="30" /></button>
+    <button class="pain" onmousedown="pain.play()"><img src="https://static0.cbrimages.com/wordpress/wp-content/uploads/2020/08/pain-naruto-Cropped.jpg?q=50&fit=crop&w=740&h=370" width="65" height="30" /></button>
+    <script>
+        var rasengan = new Audio()
+        rasengan.src = "rasengan.mp3"
+
+        var sharingan = new Audio()
+        sharingan.src = "sharingan.mp3"
+
+        var clone = new Audio()
+        clone.src = "shadow_clone_explode.mp3"
+
+        var pain = new Audio()
+        pain.src = "shinra_tensei.mp3"
+    </script>
+</body>
+</html>
